@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="java.js"></script>
+    <title>Promedio Calificaciones</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header11">
+            <header>
+                <h1>Promedio de Calificaciones</h1>
+            </header>
+        </div>
+        <div class="container13">
+            <form id="formulario">
+                <fieldset class="calif">
+                    <legend>Calificaciones</legend>
+                    <label for="ing">Ingles IV</label>
+                    <input type="number" name="ing" id="ing" />
+                    <br><br>
+                    <label for="math">Temas selectos de matemáticas I</label>
+                    <input type="number" name="math" id="math" />
+                    <br><br>
+                    <label for="hist">Conciencia histórica I</label>
+                    <input type="number" name="hist" id="hist" />
+                    <br><br>
+                    <label for="quim">Reacciones químicas</label>
+                    <input type="number" name="quim" id="quim" />
+                    <br><br>
+                    <label for="web">WEB II</label>
+                    <input type="number" name="web" id="web" />
+                    <br><br>
+                    <label for="serv">Instala Equipos y Servidores WEB</label>
+                    <input type="number" name="serv" id="serv" />
+                    <br><br>
+                </fieldset>
+            </form>
+
+            <div id="mensaje"></div>
+
+            <div class="btnFunction">
+                <br />
+                <button onclick="validacalif()">Valida</button>
+            </div>
+
+            <div id="resultado"></div>
+
+        </div>
+
+        <div class="buttonvolver">
+            <footer>
+                <a href="index.html" class="botonvolver">Volver Indice</a>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

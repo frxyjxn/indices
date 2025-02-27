@@ -1,0 +1,572 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; 
+}
+
+body {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.204),
+            rgba(0, 0, 0, 0.204)), url(src/—Pngtree—high\ resolution\ abstract\ light\ beige_13500747.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.index header {
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsalylasOCJOO3sl3roAh3K5RPX9E-njddgQ&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.btnGo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(184, 145, 111);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btnGo:hover {
+    background-color: rgb(80, 61, 45);
+}
+
+
+
+.botonvolver {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: rgb(184, 145, 111);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.botonvolver:hover {
+    background-color: rgb(80, 61, 45);
+}
+
+.btnFunction button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(182, 182, 182);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnFunction button:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(182, 182, 182);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+.form11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.header11 {
+    text-align: center;
+    background-color: rgb(80, 61, 45);
+    color: rgb(255, 228, 191);
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid rgb(182, 140, 110);
+    ;
+    margin: 20px auto;
+
+}
+
+#heroCalif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.71),
+            rgba(0, 0, 0, 0.657)), url(https://img.freepik.com/free-photo/medium-shot-kid-cheating-school-test_23-2150105006.jpg?semt=ais_hybrid1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+#heroAnho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.71),
+            rgba(0, 0, 0, 0.657)), url(https://upload.wikimedia.org/wikipedia/commons/d/d4/29_February_2020_calendar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+#heroSalary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.71),
+            rgba(0, 0, 0, 0.657)), url(https://cdn.aarp.net/content/dam/aarp/work/job_hunting/2015-04/1140-How-to-Handle-Salary-Questions-esp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+
+footer h3,
+footer p {
+    margin: 0;
+}
+
+.buttonvolver footer {
+    width: auto;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(61, 40, 23);
+    color: white;
+    text-align: center;
+}
+
+.btnFunction {
+    text-align: center;
+    /* Centrar botón */
+    margin-top: 20px;
+}
+
+.btnFunction button:active {
+    background-color: rgb(46, 46, 46);
+}
+
+#numberForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px auto;
+    width: fit-content;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#numero {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 250px;
+    text-align: center;
+}
+
+#numero:focus {
+    border-color: rgb(128, 128, 227);
+}
+
+
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.calif {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.calif legend {
+    color: rgb(255, 228, 191);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 250px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 250px;
+    text-align: center;
+}
+
+#mensaje {
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #693e1e77;
+    color: rgb(255, 228, 191);
+}
+
+th,
+td {
+    border: 1px solid #603105;
+    padding: 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: transparent;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .buttonvolver footer {
+        color: white;
+        background-color: rgb(0, 5, 75);
+        text-align: center;
+        padding: 13px; 
+    }
+    footer{
+        color: white;
+        background-color: rgb(3, 6, 26);
+        text-align: center;
+        padding: 13px;  
+    }
+
+    table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    th, td {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    body {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://static.vecteezy.com/system/resources/previews/024/085/662/non_2x/abstract-gradient-mobile-wallpaper-set-abstract-art-wallpaper-smartphone-wallpapers-android-apps-background-design-vector.jpg);
+        color: white;
+        overflow-x: hidden;
+    }
+
+    .index header {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://233.wpcdnnode.com/wysetc.org/wp-content/uploads/sites/23/2019/09/header-small.jpg);
+    }
+
+    .container {
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.2);
+        max-width: 100%;
+    }
+
+    header, legend {
+        color: white;
+    }
+
+    fieldset {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    legend {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    input[type="number"], input[type="text"] {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.5);
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        outline: none;
+        width: 250px;
+        text-align: center;
+    }
+
+    input[type="text"] {
+        background-color: rgba(255, 255, 255, 0.138);
+    }
+
+    .botonvolver, .btnGo, .btnFunction button, button {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .botonvolver {
+        width: fit-content;
+        margin: 20px auto;
+        background-color: rgb(128, 128, 227);
+        color: white;
+        text-align: center;
+    }
+
+    .botonvolver:active, .btnGo:active, .btnFunction button:active, button:active {
+        background-color: rgb(75, 75, 241);
+    }
+
+    .btnGo {
+        background-color: rgb(183, 183, 243);
+        color: white;
+    }
+
+    .calif, .calif legend {
+        color: black;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+
+    thead {
+        background-color: #26016a2d;
+        color: #bedaff;
+    }
+
+    th, td {
+        border: 1px solid #000000;
+        padding: 12px 15px;
+        text-align: left;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: transparent;
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .btnFunction {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btnFunction button {
+        background-color: rgb(128, 128, 227);
+        color: white;
+    }
+
+    .form11 legend, .form11 label {
+        color: rgb(255, 255, 255);
+    }
+
+    .header11 {
+        background-color: rgb(128, 128, 227);
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border: 5px solid rgb(194, 194, 250);
+        padding: 10px;
+    }
+
+    #formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .calif {
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .calif legend {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 5px 10px;
+        background: rgba(29, 96, 112, 0.5);
+        color: white;
+        border-radius: 5px;
+    }
+
+    label {
+        display: block;
+        font-size: 16px;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .container, #numberForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin: 50px auto;
+        width: fit-content;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    #numero {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        outline: none;
+        width: 250px;
+        text-align: center;
+    }
+
+    #numero:focus {
+        border-color: rgb(128, 128, 227);
+    }
+
+    button {
+        background-color: rgb(128, 128, 227);
+        color:white;
+    }
+
+    button:hover {
+        background-color: rgb(75, 75, 241);
+    }
+
+    #resultado {
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    footer {
+        color: white;
+    }
+
+    #mensaje {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        width: 300px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    }
+}

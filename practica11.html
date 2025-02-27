@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUELDO</title>
+    <script type="text/javascript" src="java.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header11">
+            <header>
+                <h1>Calculadora de Sueldo</h1>
+            </header>
+        </div>
+        <form id="formulario" onsubmit="event.preventDefault(); calcularSueldo();">
+            <label for="nombre">Nombre del empleado:</label>
+            <input type="text" id="nombre">
+            <label for="horas">Horas trabajadas:</label>
+            <input type="number" id="horas">
+            <label for="pago">Pago por hora:</label>
+            <input type="number" id="pago">
+            <button type="submit">Calcular</button>
+        </form>
+        <table id="resultado">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Pago por Hora</th>
+                    <th>Horas Normales</th>
+                    <th>Total Horas Normales</th>
+                </tr>
+                <tr>
+                    <th>Horas Extras</th>
+                    <th>Total Horas Extras</th>
+                    <th>Total a Pagar</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="buttonvolver">
+        <footer>
+            <a href="index.html" class="botonvolver">Volver Indice</a>
+        </footer>
+    </div>
+</body>
+
+</html>
